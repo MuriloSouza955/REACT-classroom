@@ -1,3 +1,11 @@
+import { Button } from "./components/button";
+
 export function App() {
-  return <h1>Hello React!</h1>;
+  return (
+    <div>
+      <Button name="Criar" onClick={() => alert("Criar")}/>
+      <Button name="Editar"/>
+      <Button name="Remover"/>
+    </div>
+  );
 }
